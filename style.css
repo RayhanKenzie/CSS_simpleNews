@@ -12,8 +12,12 @@ body {
 .container {
     margin-top: 100px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 70px 70px 70px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 75px 75px;
     gap: 25px;
     padding: 10px 10px 0px;
+}
+
+.featured {
+    grid-column: span 3;
 }
