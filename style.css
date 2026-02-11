@@ -10,12 +10,11 @@ body {
 }
 
 .container {
-    margin-top: 25px;
+
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 500px 150px 500px 500px;
-    column-gap: 10px;
-    padding: 10px 10px 0px;
+    grid-template-columns: 341.33px 341.33px 341.33px;
+     overflow: hidden;
+     gap: 20px;
 }
 
 .featured {
@@ -25,8 +24,7 @@ body {
 }
 
 .featured img {
-    width: 1250px;
-    height: 600px;
+    width: 1064px;
     object-fit: cover;
     align-items: center;
 }
@@ -34,15 +32,15 @@ body {
 .news-card {
     grid-column: span 1;
     grid-row: span 1;
-    width: 250px;
-    flex-direction: column;
+     overflow: hidden;
+
 }
 
 .thumb {
-    width: 450px;
+    width: 1024px;
     height: 300px;
     object-fit: cover;
-    margin-bottom: 1%;
+    object-position: -175px 20px;
 }
 
 .category, .news-card h3 {
